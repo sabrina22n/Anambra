@@ -117,8 +117,19 @@ header {
     margin-bottom:50px;
 }
 
+.sectionContacto{
+    padding: 40px;
+} 
+
+.cardcontacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contactoText {
     font-family: 'Raleway', sans-serif;
+    font-size: 30px;
 }
 
 footer {
@@ -165,5 +176,19 @@ footer {
 
     .encontramas {
         text-align: center;
+    }
+
+
+
+    .footer1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footertext {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 12px;
     }
 }
