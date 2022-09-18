@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Raleway&display=swap');
+
+/* $fuentePrincipal: font-family: 'Raleway', sans-serif;
+$fuenteSecundaria: font-family: 'Cinzel Decorative', cursive; */
+
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+
+header {
+    background-color: #1b191942;
+    left: 35%;
+	position: fixed;
+	top:2rem;
+	width: 25%;
+	z-index: 1111;
+    
+}
+
+.imgnav {
+    padding: 5px;
+    border: 1px #ffffff solid;
+   
+}
+
+
+.paralax {
+
+    background-image: url("/anambra/images/anambra.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+}
+
+.fade-in {
+	animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+.titulos {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.parrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.sectionProductos {
+    background-color: #F4E5DD;
+}
+
+.card {
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: #F4E5DD;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado {
+    height: 220px;
+    width: 220px;
+    background-color: #862a2a;
+    margin: 5px;
+    border: solid 1px #1B1919;
+}
+
+.card-text {
+    background-color: #1B1919;
+    color: #ffffff;
+    padding: 8px;
+    transform: translateY(-40px);
+    font-family: 'Raleway', sans-serif;
+}
+
+.textoInsta {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    padding: 22px;
+    margin-bottom: 40px;
+    color: #1B1919;
+}
+
+
+.textoInsta:hover {
+    color: #1B1919;
+}
+
+.img {
+    background-color: #862a2a;
+    width: 100%;
+    height: 420px;
+    background-image: url("/anambra/images/banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:50px;
+}
+
+.contactoText {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: #1B1919;
+    color: #ffffff;
+}
