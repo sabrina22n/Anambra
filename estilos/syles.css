@@ -30,7 +30,7 @@ header {
 
 .paralax {
 
-    background-image: url("/images/anambra.jpg");
+    background-image: url("../images/anambra.jpg");
     height: 600px;
     background-attachment: fixed;
     background-position: center;
@@ -109,7 +109,7 @@ header {
     background-color: #862a2a;
     width: 100%;
     height: 420px;
-    background-image: url("/images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
