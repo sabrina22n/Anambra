@@ -31,7 +31,7 @@ header {
 .paralax {
 
     background-image: url("../images/anambra.jpg");
-    height: 600px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,4 +125,45 @@ footer {
     font-family: 'Raleway', sans-serif;
     background-color: #1B1919;
     color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header {
+	    display: none;
+    }
+
+    .paralax {
+        background-image: url("../images/anambramobile.png");
+        height: 100vh;
+        background-attachment: unset;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .decoanambra {
+        display: none;
+    }
+
+    .quienesomos {
+        background-image: url("../images/decomobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 12px;
+    }
+
+    .parrafo {
+        text-align: center;
+    }
+
+    .encontramas {
+        text-align: center;
+    }
 }
