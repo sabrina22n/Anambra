@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 
+
 /* $fuentePrincipal: font-family: 'Raleway', sans-serif;
 $fuenteSecundaria: font-family: 'Cinzel Decorative', cursive;
 $fuenteNumeros: font-family: 'Mulish', sans-serif;
@@ -136,7 +137,7 @@ header {
 }
 
 .contactoText {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
 }
 
